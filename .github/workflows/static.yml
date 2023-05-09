@@ -19,6 +19,6 @@ jobs:
           server: gl.umbc.edu
           username: ${{secrets.ftp_username}}
           password: ${{ secrets.ftp_password }}
-          local_path: '/Users/sabrinarodriguez/Desktop/VSCodeIS436/IS436Lab4-1/'
+          local_path: './*'
           remote_path: '/afs/umbc.edu/users/s/r/srodrig1/pub/swe2023/VSCodeIS436/IS436Lab5'
           sftp_only: true
